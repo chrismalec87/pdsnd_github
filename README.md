@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+This project was created on 29-07-2020
 
 ### Project Title
-Replace the Project Title
+Bikeshare Data Analysis Tool
 
 ### Description
-Describe what your project is about and what it does
+This tool allows the user to easily analyse bikeshare data from three different cities and provides statistics about the bikeshare usage. Data can be fildered by additional parameters.
 
 ### Files used
-Include the files used
+bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity
 
