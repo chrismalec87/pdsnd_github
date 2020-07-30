@@ -1,12 +1,17 @@
+import os
 import time
 import pandas as pd
 from datetime import timedelta as td
 
-""" dectionary describing data file locations """
+"""Current directory"""
 
-city_data = { 'chicago': 'chicago.csv',
-              'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+path = os.getcwd()
+
+""" dictionary describing data file locations """
+
+city_data = { 'chicago': path + '\chicago.csv',
+              'new york city': path + '\new_york_city.csv',
+              'washington': path + '\washington.csv' }
 
 """ sets of acceptable month / day user responses """
 
