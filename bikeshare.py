@@ -183,7 +183,7 @@ def show_raw_data(df):
     
     show_data = input('\nWould you like to view the raw data? Enter yes or no.\n').lower()
     
-    while show_data == 'yes':
+    while show_data == 'yes' or show_data = 'y':
         
         if last_row >= row_limit:
             last_row = row_limit
