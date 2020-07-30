@@ -21,9 +21,7 @@ def get_filters():
     
     print('Hello! Let\'s explore some US bikeshare data!')
     
-    valid_city = False
-    valid_month = False
-    valid_day = False
+    valid_city = valid_month = valid_day = False
     
     while not valid_city:
         city = input("Which city's data would you like to explore? Please select Chicago, New York City or Washington.\n").lower()
